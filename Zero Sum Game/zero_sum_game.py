@@ -41,4 +41,4 @@ class ZeroSumGame:
         return -resolve.fun
 
     def generate_action(self):
-        return np.random.choice(self._first_actions, p = self.optimal_policy)
+        return np.random.choice(self._action_1, p = self.nash_eq)
