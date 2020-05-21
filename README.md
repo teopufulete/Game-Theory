@@ -13,12 +13,12 @@ Calculating the Nash equilibrium for different types of games.
       * If A betrays B but B remains silent, A will be set free and B will serve three years in prison
       * If A remains silent but B betrays A, A will serve three years in prison and B will be set free
       * If A and B both remain silent, both of them will serve only one year in prison (on the lesser charge).
-![](https://cdn.britannica.com/55/91955-050-F444D10D/dilemma-prisoners-participants-game-theory-communication-strategy.jpg)
+<img src="https://cdn.britannica.com/55/91955-050-F444D10D/dilemma-prisoners-participants-game-theory-communication-strategy.jpg" width="45%"></img> 
 
 #### Bach or Stravinsky:
 - There are two players: A and B
 - They wish to go out together to a musical concert, but A prefers Bach and B prefers Stravinsky.
 - A and B want to coordinate their behaviour, but they have conflicting interests.
-![](https://www.researchgate.net/publication/324998381_Emergence_and_suppression_of_cooperation_by_action_visibility_in_transparent_games/figures?lo=1)
+<img src="https://www.mdpi.com/sustainability/sustainability-04-01776/article_deploy/html/images/sustainability-04-01776-g001.png" width="45%"></img>
 
  
