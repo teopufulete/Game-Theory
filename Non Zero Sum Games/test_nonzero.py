@@ -42,6 +42,19 @@ def rock_paper_scissors(first_act, second_act):
     return 0, 0
 
 
+def prisoners_dilemma(first_act, second_act):
+    ACTIONS = ['silent', 'betray']
+    assert first_act in ACTIONS and second_act in ACTIONS
+    if first_act == 'silent' and second_act == 'silent':
+        return -1, -1
+    if first_act == 'silent' and second_act == 'betray':
+        return -3, 0
+    if first_act == 'betray' and second_act == 'betray':
+        return -2, -2,
+    if first_act == 'betray' and second_act == 'silent':
+        return 0, -3
+
+    
 if __name__ == '__main__':
     np.random.seed(SEED)
     simulate_game(rock_paper_scissors,
@@ -58,3 +71,8 @@ if __name__ == '__main__':
                   ['rock', 'paper', 'scissors'],
                   ['rock'],
                   comments="Unfair rock paper scissors where the second player can't use 'scissors' and 'paper'")
+    
+    simulate_game(prisoners_dilemma,
+                  ['silent', 'betray'],
+                  ['silent', 'betray'],
+                  comments="Prisoner's dilemma")
