@@ -1,5 +1,5 @@
 # Game-Theory 
-Calculating the Nash equilibrium for different types of games.
+Calculating the Nash equilibrium for different types of games. Includes genetic algorithm implmentation to solve the iterated Prisoner's Dilemma to spice things up.
 
 #### Includes: 
 - Rock, paper, scissors
