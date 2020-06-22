@@ -4,7 +4,7 @@ Calculating the Nash equilibrium for different types of games.
 #### Includes: 
 - Rock, paper, scissors
 - Prisoners Dilemma
-- Battle of the sexes
+- Bach or Stravinsky
 
 ## Rules:
  #### Prisoners Dilemma:
